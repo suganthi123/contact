@@ -1,0 +1,8 @@
+class Addnumbertocontact < ActiveRecord::Migration
+   def change
+add_column :details, :ph_number :integer
+    
+  end
+
+  
+end
